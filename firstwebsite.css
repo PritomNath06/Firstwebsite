@@ -2,7 +2,7 @@
     body {
       margin: 0;
       font-family: sans-serif;
-      background: #000000;
+      background: #7fff4d;
       color: #bb0000;
     }
 
@@ -30,7 +30,7 @@
     }
 
     .button {
-      background: #bb0000;
+      background: #0010a0;
       text-align: center;
       color: #000000;
       padding: 10px 20px;
@@ -54,7 +54,7 @@
       padding: 60px;
       gap: 30px;
       flex-wrap: wrap;
-      background: #000000;
+      background: #00000075;
       color: #000000;
     }
 
