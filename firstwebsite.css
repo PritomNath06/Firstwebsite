@@ -1,0 +1,91 @@
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #000000;
+      color: #bb0000;
+    }
+
+    .header {
+      height: 86vh;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+    }
+
+    .top {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-weight: normal;
+      color: #bb0000;
+    }
+
+    .logo {
+      font-size: 32px;
+    }
+
+    .button {
+      background: #bb0000;
+      text-align: center;
+      color: #000000;
+      padding: 10px 20px;
+      text-decoration: none; /* fixed from 'red' */
+      border-radius: 3px;
+      font-size: 16px;
+    }
+
+    .main-text h1 {
+      font-size: 28px;
+      margin: 100px 0 20px;
+    }
+
+    /* SECTION STYLES */
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px;
+      gap: 30px;
+      flex-wrap: wrap;
+      background: #f5f7ff;
+      color: #222;
+    }
+
+    .left {
+      max-width: 500px;
+    }
+
+    .left h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .left p {
+      color: #777;
+      margin-bottom: 20px;
+    }
+
+    .section .button {
+      background: #5d5dfc;
+      color: #fff;
+      border-radius: 6px;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .right img {
+      max-width: 100%;
+      border-radius: 16px;
+      width: 400px;
+    }
+
+  </section>
+
+</body>
+</html>
+</html>
