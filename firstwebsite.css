@@ -78,7 +78,7 @@
       color: #000000;
       border-radius: 6px;
       font-size: 14px;
-      text-decoration: line-through;
+      text-decoration: none;
     }
 
     .right img {
@@ -87,4 +87,21 @@
       width: 400px;
     }
 
-    
+    /*This contains the stats of the boot*/
+    .stats-of-boots {
+        background-color: #000000;
+        color: #bb0000;
+        border-radius: 12px;
+        padding: 14px;
+        text-align: center;
+    }
+
+    .boots-stats {
+
+    display: flex;
+
+    }
+
+    .boots-stats h3{
+
+    }
