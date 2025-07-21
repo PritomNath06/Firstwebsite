@@ -17,10 +17,11 @@
     }
 
     .top {
+      font-family: sans-serif;
       width: 100%;
       display: flex;
       justify-content: space-between;
-      font-weight: normal;
+      font-weight: bolder;
       color: #bb0000;
     }
 
@@ -30,14 +31,15 @@
     }
 
     .button {
-      background: #000000;
-      text-align: center;
-      color: #bb0000;
+      background: #bb0000;
+      border-radius: 4px;
+      align-items: center;
+      color: #000000;
       padding: 10px 20px;
-      text-decoration: none;
-      
+      text-decoration:tomato;
+   
       /* fixed from 'red' */
-      border-radius: 3px;
+      border-radius: 5px;
       font-size: 16px;
     }
 
@@ -54,7 +56,7 @@
       padding: 60px;
       gap: 30px;
       flex-wrap: wrap;
-      background: #ffffff;
+      background: #000000;
       color: #000000;
     }
 
@@ -94,14 +96,4 @@
         border-radius: 12px;
         padding: 14px;
         text-align: center;
-    }
-
-    .boots-stats {
-
-    display: flex;
-
-    }
-
-    .boots-stats h3{
-
     }

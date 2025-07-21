@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        nav{
+            display: flex; /* Use flexbox for navigation */
+            justify-content: space-between; /* Space out the items */
+        }
+        nav a{
+            text-decoration: none; /* Remove underline from links */
+            color: black; /* Set link color */
+        }
+        .login-form-container{
+            display: flex; /* Use flexbox for the form container */
+            justify-content: flex-end; /* Align the form to the right */ 
+        }
+
+        .login-form {
+            border: 2px solid black; /* Add a border to the form */
+            display: flex; /* Use flexbox for the form */
+            flex-direction: column; /* Stack the form elements vertically */
+            
+            width: 50%;
+
+        }
+        .login-form input{
+            margin-top: 20px; /* Add space above each input */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+
+       <div>
+        <a href="">Home</a> 
+        <a href="">Profile</a> 
+        <a href="">About</a>
+       </div>
+
+        <a href="">Login</a>
+    </nav>
+
+    <section class="login-form-container">
+            <form class="login-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <button type="submit">Submit</button>
+    </form>
+    </section>
+</body>
+</html>
